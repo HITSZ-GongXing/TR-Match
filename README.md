@@ -1,4 +1,5 @@
 # TR-Match
+## Citation:
 This is the code for the 2023 DASFAA paper: Temporal-Relational Matching Network for Few-shot Temporal Knowledge Graph Completion. Please cite our paper if you use the code or datasets:
 ```latex
 @inproceedings{Gong2023TRmatch
@@ -16,7 +17,7 @@ This is the code for the 2023 DASFAA paper: Temporal-Relational Matching Network
   year      = {2023}
 }
 ```
-## quick start
+## Quick start:
 ```latex
 python main.py --dataset ICEWS14-few --max_neighbor 50 --process_step 4 --num_attention_heads 2
 python main.py --dataset ICEWS05-15-few --max_neighbor 50 --process_step 4 --num_attention_heads 2
