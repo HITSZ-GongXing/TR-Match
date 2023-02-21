@@ -19,7 +19,6 @@ import json
 import random
 import psutil
 
-
 class Trainer(object):
     def __init__(self, arg):
         super(Trainer, self).__init__()
