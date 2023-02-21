@@ -19,7 +19,7 @@ This is the code for the 2023 DASFAA paper: Temporal-Relational Matching Network
 ```
 ## Quick start:
 ```latex
-python main.py --dataset ICEWS14-few --max_neighbor 50 --process_step 4 --num_attention_heads 2
-python main.py --dataset ICEWS05-15-few --max_neighbor 50 --process_step 4 --num_attention_heads 2
-python main.py --dataset ICEWS18-few --max_neighbor 100 --process_step 5 --num_attention_heads 4
+python main.py --random_embed --dataset ICEWS14-few --max_neighbor 50 --process_step 4 --num_attention_heads 2
+python main.py --random_embed --dataset ICEWS05-15-few --max_neighbor 50 --process_step 4 --num_attention_heads 2
+python main.py --random_embed --dataset ICEWS18-few --max_neighbor 100 --process_step 5 --num_attention_heads 4
 ```
