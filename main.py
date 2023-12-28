@@ -376,9 +376,6 @@ def seed_everything(seed=2040):
 
 
 def adjust_learning_rate(optimizer, epoch, lr, warm_up_step, max_update_step, end_learning_rate=0.0, power=1.0):
-    '''
-    epoch: 训练的task数量
-    '''
     epoch += 1
     if warm_up_step > 0 and epoch <= warm_up_step:
         warm_up_factor = epoch / float(warm_up_step)
